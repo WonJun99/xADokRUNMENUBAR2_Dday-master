@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 해당 서버주소를 http여도 실행되도록 허용해주도록 설정 -->
+    <!--<domain-config cleartextTrafficPermitted="true">-->
+        <!--<domain includeSubdomains="true">127.0.0.1</domain>-->
+    <!--</domain-config>-->
+    <!-- 모든 경로가 허용되도록 설정 -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
+<!--<network-security-config>-->
+    <!--<base-config>-->
+        <!--<trust-anchors>-->
+            <!--<certificates src="system"/>-->
+        <!--</trust-anchors>-->
+    <!--</base-config>-->
+<!--</network-security-config>-->

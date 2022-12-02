@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">효도르 부탁해</string>
+
+    <string name="admob_app_id">ca-app-pub-2885398275837216~3140000901</string>
+    <string name="admob_app_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_app_id_dear_yhs">ca-app-pub-8963004081529205~4649008570</string>
+
+    <!-- 운영 광고 단위 -->
+    <!-- 배너 광고 -->
+    <!-- 배너 광고 -->
+    <string name="admob_banner_id">ca-app-pub-2885398275837216/6534296917</string>
+    <string name="admob_banner_id_dear_yhs">ca-app-pub-8963004081529205/6125741772</string>
+
+    <!-- 샘플 광고 단위 -->
+    <!-- 배너 광고 -->
+    <string name="admob_banner_id_test1">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- 전면 광고 -->
+    <string name="admob_banner_id_test2">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- 전면 동영상 광고 -->
+    <string name="admob_banner_id_test3">ca-app-pub-3940256099942544/8691691433</string>
+    <!-- 보상형 동영상 광고 -->
+    <string name="admob_banner_id_test4">ca-app-pub-3940256099942544/5224354917</string>
+    <!-- 네이티브 광고 고급형 -->
+    <string name="admob_banner_id_test5">ca-app-pub-3940256099942544/2247696110</string>
+    <!-- 네이티브 동영상 광고 고급형 -->
+    <string name="admob_banner_id_test6">ca-app-pub-3940256099942544/1044960115</string>
+
+
+    <string name="btn_detail">상세</string>
+    <string name="btn_noti">노티</string>
+    <string name="btn_save">저장</string>
+    <string name="btn_edit">수정</string>
+    <string name="btn_delete">삭제</string>
+    <string name="btn_cancel">취소</string>
+    <string name="btn_deactivate">해제</string>
+    <string name="btn_activate">고정</string>
+
+    <string name="main_no_content_header">효도를 어떻게 하는지 궁금하신가요?</string>
+    <!--<string name="main_no_content_header_sub">훗날 기억을 되새겨 봄으로써 순간이나마\n그 시절의 감상을 느낄 수 있는 추억은,\n그 자체로 축복이다.</string>-->
+    <string name="main_no_content_header_sub">효도르 부탁해 앱을 사용해보세요.\n부모님께 잘 하는 법을 알려드립니다.</string>
+
+    <string name="hint_date_detail">디데이 날짜를 선택하세요.</string>
+    <string name="hint_title_detail">디데이 제목을 입력하세요.</string>
+    <string name="hint_description_detail">디데이 내용을 입력하세요.</string>
+
+    <string name="alert_title_delete_dday">일정 삭제</string>
+    <string name="alert_message_delete_dday">일정을 삭제하시겠습니까?</string>
+
+    <string name="alert_title_delete_dday_checked">선택 일정 삭제</string>
+    <string name="alert_message_delete_dday_checked">선택한 일정을 삭제하시겠습니까?</string>
+
+    <string name="alert_title_deactivate_dday_checked">선택 일정 해제</string>
+    <string name="alert_message_deactivate_dday_checked">선택한 일정이 상단바에 고정되어 있으면 해제합니다.</string>
+
+    <string name="alert_title_activate_dday_checked">선택 일정 고정</string>
+    <string name="alert_message_activate_dday_checked">선택한 일정이 상단바에 없으면 고정합니다.</string>
+
+    <string name="dday_valid_prefix">D-</string>
+    <string name="dday_invalid_prefix">D+</string>
+    <string name="dday_today">D-DAY</string>
+
+    <string name="checkbox_add_noti">상단바에 디데이를 고정합니다.</string>
+    <string name="checkbox_add_umryuk">음력입니다.</string>
+
+    <string name="snackbar_msg_add_notification">상단바에 디데이를 고정합니다.</string>
+    <string name="snackbar_msg_remove_notification">상단바에 고정된 디데이를 해제합니다.</string>
+    <string name="snackbar_msg_add_dday">디데이가 업데이트 되었습니다.</string>
+    <string name="snackbar_msg_delete_dday">디데이가 삭제 되었습니다.</string>
+
+    <string name="snackbar_msg_deactivate_dday">상단바에 고정된 디데이가 해제 되었습니다.</string>
+    <string name="snackbar_msg_no_deactivate_dday">고정 해제할 디데이가 없습니다.\n먼저 일정을 등록해보세요.</string>
+
+    <string name="snackbar_msg_activate_dday">상단바에 디데이가 고정 되었습니다.</string>
+    <string name="snackbar_msg_no_activate_dday">고정할 디데이가 없습니다.</string>
+
+    <string name="toolbar_title_detail">Dday 상세보기</string>
+    <string name="toolbar_title_merge_create">Dday 추가하기</string>
+    <string name="toolbar_title_merge_update">Dday 수정하기</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CEEDAY</string>
+    <string name="nav_header_subtitle">Powered By CEEDLIVE</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_body_text">
+    오늘의 건강식\n\n
+    아로니아(Aronia)\n
+    아로니아는 몸에 좋은\n
+    플라보노이드와 비타민이\n
+    풍부해서 건강식품으로 인기를\n
+    얻고있습니다.\n\n
+    대표적인 아로니아 효능에는\n
+    다이어트, 암 예방, 향산화 효과,\n
+    두뇌 건강 개선, 안구 건강,\n
+    면역력 증가, 피부 건강 개선,\n
+    호흡기 질환 예방, 고혈압 완화,\n
+    당뇨 예방 효과 등이 있습니다.\n\n
+    아로니아 효능을 100% 얻기 위해서는\n
+    열을 가하지 않은 생 아로니아를\n
+    먹는 것이 가장 좋습니다.\n
+    아로니아의 함유된 영양소는 열에의해서\n
+    쉽게 파괴되는 단점이 있기 때문입니다.\n
+    \n
+    출처: 오늘의 건강 정보
+    </string>
+
+    <string name="drawer_body_text2">
+    오늘의 건강식\n\n
+    시서스(Grape Ivy)\n
+    생명력이 매우 강한 시서스는\n
+    하늘에서 내린 식물이라는\n
+    별명을 가지고 있습니다.\n\n
+    대표적인 시서스 효능에는\n
+    체중 감소, 골밀도 증가, 통풍 예방,\n
+    생리불순 개선, 대사증후군 예방,\n
+    소화력 개선, 심혈관 질환 예방, 혈당 관리\n
+    면역력 개선 효과등이 있습니다.\n\n
+    시서스를 처음 복용하는 경우 소량만\n
+    섭취하였다가 이상 반응 여부를 확인하고\n
+    점차 복용량을 늘려가는 것이 안전합니다.\n
+    시서스는 시중에서 분말, 알약, 캡슐\n
+    액상형 등 다양하게 구분되어 있습니다.\n
+    \n
+    출처: 오늘의 건강 정보
+    </string>
+
+</resources>

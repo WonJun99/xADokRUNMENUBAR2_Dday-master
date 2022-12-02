@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/community"
+        android:orderInCategory="100"
+        tools:context = "com.ceedlive.ceeday.CommunityActivity"
+        android:title="Community"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/gift"
+        android:orderInCategory="100"
+        android:title="Gift"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mypage"
+        android:orderInCategory="100"
+        android:title="Mypage"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="always" />
+</menu>

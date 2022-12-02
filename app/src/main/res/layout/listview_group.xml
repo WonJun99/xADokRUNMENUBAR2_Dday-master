@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 리스트 뷰에 들어갈 리스트 아이템 레이아웃 -->
+
+    <LinearLayout
+        android:id="@+id/listview_group_general"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground">
+
+        <CheckBox
+            android:id="@+id/lv_group_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/selected_dot" />-->
+
+        <ImageView
+            android:id="@+id/iv_status_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp" />
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <!-- 디데이 제목 -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <!-- 디데이 날짜 -->
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTitle"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="18dp"
+                android:text="date"
+                />
+
+        </LinearLayout>
+
+        <!-- 디데이 표현 -->
+        <TextView
+            android:id="@+id/tvDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginRight="18dp"
+            android:text="day"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#5F4B8B"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_group_detail"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/listview_group_tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="child"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <ImageView
+                android:id="@+id/listview_group_btn_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="18dp"
+                android:text="@string/btn_detail"/>
+
+            <ImageView
+                android:id="@+id/listview_group_btn_noti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="18dp"
+                android:text="@string/btn_noti"/>
+
+            <ImageView
+                android:id="@+id/listview_group_btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="18dp"
+                android:text="@string/btn_edit"/>
+
+            <ImageView
+                android:id="@+id/listview_group_btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="18dp"
+                android:text="@string/btn_delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

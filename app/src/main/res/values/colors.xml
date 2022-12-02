@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Custom color -->
+    <color name="colorBrigntRed">#F14742</color>
+    <color name="colorBrigntRed2">#FDECEC</color>
+    <color name="colorTransparent">#00FF0000</color>
+    <color name="colorYellow1">#FFF00D</color>
+    <color name="colorYellow2">#FF9900</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorLightGray">#D3D3D3</color>
+    <color name="colorWhiteSmoke">#F5F5F5</color>
+
+</resources>
